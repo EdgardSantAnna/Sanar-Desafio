@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../fontes/georgia.ttf);
+ }
+ @font-face {
+    font-family: Georgiab;
+    src: url(../fontes/Georgiab.ttf);
+ }
+ @font-face {
+    font-family: Georgiai;
+    src: url(../fontes/georgiai.ttf);
+ }
+ @font-face {
+    font-family: Georgiaz;
+    src: url(../fontes/georgiaz.ttf);
+ }   
+ @font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fontes/OpenSans-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(../fontes/OpenSans-BoldItalic.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../fontes/OpenSans-ExtraBold.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-ExtraBoldItalic;
+    src: url(../fontes/OpenSans-ExtraBoldItalic.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fontes/OpenSans-Italic.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-Light;
+    src: url(../fontes/OpenSans-Light.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-LightItalic;
+    src: url(../fontes/OpenSans-LightItalic.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fontes/OpenSans-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-Semibold;
+    src: url(../fontes/OpenSans-Semibold.ttf);
+ }
+
+ @font-face {
+    font-family: OpenSans-SemiboldItalic;
+    src: url(../fontes/OpenSans-SemiboldItalic.ttf);
+ }
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+object, img, a {
+    outline: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+   display:block; 
+}
+
+h1,h2,h3{
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Topo */
+.Barra_Topo{
+    background: #2c4b60;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}  
+    
+    .Barra_Topo_Area{
+       display: flex;
+       justify-content: space-between; 
+       align-items: center;
+    }
+
+        .Barra_Topo_Area_Link{
+            display: flex;            
+            align-items: center;
+            justify-content: space-between;
+            width: 370px;
+            color:#3cd2b7;
+            font-family: OpenSans-Bold, sans-serif;
+            font-size: 18px;
+
+        }
+
+
+/* Destaque */
+.Destaque_Topo{
+    background: #2d3e50;
+    padding: 120px 0 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .Destaque_Topo_Area{
+        text-align: center;
+        color: #ffffff;
+    }
+
+        .Destaque_Topo_Area img{
+            margin: 0 auto;
+        }
+
+        .Destaque_Topo_Area h2{
+            font-family: OpenSans-Light, sans-serif;
+            font-size:28px;
+            margin: 40px 0 30px;
+        }
+
+            .Destaque_Topo_Area h2 strong{
+                font-family: OpenSans-Bold, sans-serif;
+            }
+
+        .Destaque_Topo_Area h3{
+            font-family: OpenSans-Regular, sans-serif;
+            font-size:17px;
+        }
+
+        .Destaque_Topo_Area_Tour_Video{
+            display: flex;
+            justify-content: space-between;
+            width: 495px;
+            margin: 70px auto 100px;
+        }
+
+            .Destaque_Topo_Area_Tour_Video a{
+                padding: 27px;
+                box-sizing: border-box;
+                width: 230px;
+                text-align: center;
+                border: 3px solid #FFFFFF;
+                background: #22303d;
+                border-radius: 6px;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-family: OpenSans-Light, sans-serif;
+
+            }
+
+            .Destaque_Topo_Area_Tour_Video a:hover{
+
+                background: #16a086;
+                border-color: #16a086
+            }
+            
+
+
+
+/* Smartphone */
+.Smartphone{
+
+}
+/* Listagem */
+.Listagem{
+
+} 
+/* Sign Up */
+.Sign_Up{
+
+}                 
+/* Sign Up */
+.Listagem_002{
+
+}   
+/* Menu Rodape */
+.Menu_Rodape{
+
+}      
+
+.Center{
+    max-width: 1010px;
+    margin: 0 auto;
+    width: 100%;
+}
