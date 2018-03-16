@@ -239,6 +239,10 @@ h1,h2,h3,h4,h5{
                     
                 }
 
+                .Descricao_Extra{
+                    display: none;
+                }
+
                 .Item_Informacoes h4{
                     font-size: 15px;
                     font-family: OpenSans-LightItalic, sans-serif;
@@ -269,6 +273,7 @@ h1,h2,h3,h4,h5{
         text-align: center; 
     }
 
+
         .Listagem_Area h5{
             font-family: Georgiai, sans-serif;
             color:#8b8b8b;
@@ -298,6 +303,10 @@ h1,h2,h3,h4,h5{
                 margin: 0 10px 20px 10px;
             }
 
+            .Listagem_More{
+                display: none;
+            }
+        
                 .Listagem_Item_Imagem{
                     border: 1px solid #e1e1e1;
                     padding: 12px;
