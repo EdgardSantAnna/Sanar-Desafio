@@ -489,6 +489,53 @@ h1,h2,h3,h4,h5{
                     font-size: 14px;
                 }
 
+/* Sign Free */
+.Sign_Free{
+    padding: 0px 0 77px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .Sign_Free_Area{
+        max-width: 600px;
+        margin: 0 auto;
+        width: 100%;  
+        text-align: center; 
+    }
+
+        .Sign_Free_Area h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: OpenSans-Light, sans-serif;
+            color: #363636;
+            margin: 0px 0 10px 0;
+
+        }   
+
+        .Sign_Free_Area h3{
+            font-size: 15px;
+            font-family: OpenSans-Italic, sans-serif;
+            color: #898989;
+            margin: 0px 0 25px 0;
+
+        }
+        
+        .Sign_Free_Area a{
+            background: #16a086;
+            color: #FFFFFF;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: OpenSans-Light, sans-serif;
+            padding: 25px 0;
+            box-sizing: border-box;
+            width: 230px;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+    
+
 /* Menu Rodape */
 .Menu_Rodape{
 
