@@ -71,6 +71,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: #FFFFFF;
 }
 
 object, img, a {
@@ -86,7 +87,7 @@ img{
    display:block; 
 }
 
-h1,h2,h3{
+h1,h2,h3,h4,h5{
     color: inherit;
     padding: 0;
     margin: 0;
@@ -183,18 +184,160 @@ h1,h2,h3{
 
 
 /* Smartphone */
-.Smartphone{
-
+.Smartphone{    
+    padding: 14px 0 0px;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+    .Smartphone_Area{
+        max-width: 850PX;
+        margin: 0 auto;
+        width: 100%;   
+    }
+
+        .Smartphone_Area_Item{
+            width: 100%;
+            margin: 0 0 200px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+            .Item_Mock_Up{
+                order: 1;
+            }
+
+            .Item_Informacoes{
+                order: 2;
+            }
+
+                .Item_Informacoes h2{
+                    font-size: 27px;
+                    text-transform: uppercase;
+                    font-family: OpenSans-Light, sans-serif;
+                    color: #363636;
+                    margin: 0 0 20px 0;
+
+                }   
+
+                .Item_Informacoes h3{
+                    font-size: 15px;
+                    font-family: OpenSans-Regular, sans-serif;
+                    color: #8e8e8e;
+                    margin: 0 0 15px;
+                    
+                    
+                }
+
+                .Item_Informacoes h4{
+                    font-size: 15px;
+                    font-family: OpenSans-LightItalic, sans-serif;
+                    color: #8a8a8a;
+                }
+
+                .Smartphone_Area_Item:nth-child(1) .Item_Mock_Up{
+                    order: 2;
+                }
+                .Smartphone_Area_Item:nth-child(1) .Item_Informacoes{
+                    order: 1;
+                }
+
+
+
 /* Listagem */
 .Listagem{
-
+    padding: 14px 0 210px;
+    width: 100%;
+    box-sizing: border-box;
 } 
+
+    .Listagem_Area{
+        max-width: 890px;
+        margin: 0 auto;
+        width: 100%;  
+        text-align: center; 
+    }
+
+        .Listagem_Area h5{
+            font-family: Georgiai, sans-serif;
+            color:#8b8b8b;
+            font-size: 14px;
+
+        }
+
+        .Listagem_Area h2{
+            font-size: 27px;
+            text-transform: uppercase;
+            font-family: OpenSans-Light, sans-serif;
+            color: #363636;
+            margin: 5px 0 45px 0;
+
+        }   
+
+        .Listagem_Area_Item_Area{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+            .Listagem_Item{
+                width: 240px;
+                box-sizing: border-box;
+                margin: 0 0 20px 0;
+            }
+
+                .Listagem_Item_Imagem{
+                    border: 1px solid #e1e1e1;
+                    padding: 12px;
+                    width: 240px;
+                    height: 240px;
+                    margin: 0 0 38px 0;
+                    background: #e4e8eb;
+                    box-shadow: inset 0 0 0 12px #FFFFFF;
+                    box-sizing: border-box;
+                   
+                }
+
+                .Listagem_Item h3{
+                    font-size:20px;
+                    text-transform: uppercase;
+                    font-family: OpenSans-Light, sans-serif;
+                    margin: 0 0 15px 0;
+                    color: #363636;
+                }
+
+                .Listagem_Item h4{
+                    font-size:15px;
+                    font-family: OpenSans-Italic, sans-serif;
+                    margin: 0 0 0px 0;
+                    color: #8c8c8c;
+                }
+            
+            .Listagem_Area a img{
+                margin: 0 auto;
+            }
+
+
+
+
 /* Sign Up */
 .Sign_Up{
+    padding: 110px 0 50px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #2d3e50;
+    
+}        
 
-}                 
-/* Sign Up */
+    .Sign_Up_Area{
+        max-width: 975px;
+        margin: 0 auto;
+        width: 100%;  
+        text-align: center; 
+    }
+
+/* Listagem 002 */
 .Listagem_002{
 
 }   
