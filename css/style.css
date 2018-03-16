@@ -337,6 +337,74 @@ h1,h2,h3,h4,h5{
         text-align: center; 
     }
 
+        .Sign_Up_Area h2{
+            font-size: 30px;
+            text-transform: uppercase;
+            font-family: OpenSans-Light, sans-serif;
+            color: #FFF;
+            margin: 0 0 15px 0;
+        }
+
+        .Sign_Up_Area h3{
+            font-size: 19px;
+            font-family: OpenSans-Light, sans-serif;
+            color: #FFF;
+        }
+
+        .Sign_Up_Form{
+            margin: 65px auto 0;
+            display: flex;
+            align-items: center;
+            width: 700px;
+            flex-wrap: wrap;
+
+        }
+
+            .Sign_Up_Form input{
+                height: 70px;
+                width: calc(100% - 200px);
+                font-size: 15px;
+                font-family: OpenSans-Light, sans-serif;
+                border: 0;
+                box-sizing: border-box;
+                background: #FFF;
+                color: #363636;
+                padding: 10px 10px 10px 60px;
+                border-radius: 5px 0 0 5px;
+            }
+
+            .Sign_Up_Form button{
+                width: 200px;
+                background: #16a086;
+                color: #FFFFFF;
+                height: 70px;
+                border: 0;
+                box-sizing: border-box;
+                border-radius: 0 5px 5px 0;
+                font-size: 15px;
+                text-transform: uppercase;
+
+            }
+
+            .Sign_Up_Form_Alert{
+                width: 100%;
+                background: #f26c4f;
+                margin: 15px 0 0 0;
+                display: flex;
+                padding: 7px 0;
+                justify-content: center;
+                border-radius: 5px;
+            }
+
+                .Sign_Up_Form_Alert span{
+                    margin: 0 0 0 10px;
+                    font-family: Georgiai, sans-serif;
+                    color: #FFF;
+                    font-size: 14px;
+                    
+                }
+
+
 /* Listagem 002 */
 .Listagem_002{
 
