@@ -191,7 +191,7 @@ h1,h2,h3,h4,h5{
 
 /* Smartphone */
 .Smartphone{    
-    padding: 14px 0 0px;
+    padding: 140px 0 0px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -204,6 +204,8 @@ h1,h2,h3,h4,h5{
 
         .Smartphone_Area_Item{
             width: 100%;
+            box-sizing: border-box;
+            padding: 0 10px;
             margin: 0 0 200px;
             display: flex;
             justify-content: space-around;
@@ -216,6 +218,7 @@ h1,h2,h3,h4,h5{
 
             .Item_Informacoes{
                 order: 2;
+                margin: 0 0 0 30px;
             }
 
                 .Item_Informacoes h2{
@@ -247,6 +250,7 @@ h1,h2,h3,h4,h5{
                 }
                 .Smartphone_Area_Item:nth-child(1) .Item_Informacoes{
                     order: 1;
+                    margin: 0 30px 0 0;
                 }
 
 
@@ -283,14 +287,15 @@ h1,h2,h3,h4,h5{
 
         .Listagem_Area_Item_Area{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 100%;
+            flex-wrap: wrap;
         }
 
             .Listagem_Item{
                 width: 240px;
                 box-sizing: border-box;
-                margin: 0 0 20px 0;
+                margin: 0 10px 20px 10px;
             }
 
                 .Listagem_Item_Imagem{
@@ -361,7 +366,8 @@ h1,h2,h3,h4,h5{
             margin: 65px auto 0;
             display: flex;
             align-items: center;
-            width: 700px;
+            width: 100%;
+            max-width: 700px;
             flex-wrap: wrap;
 
         }
@@ -419,10 +425,12 @@ h1,h2,h3,h4,h5{
 } 
 
     .Listagem_002_Area{
-        max-width: 835px;
+        max-width: 855px;
         margin: 0 auto;
         width: 100%;  
-        text-align: center; 
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box; 
     }
 
         .Listagem_002_Area h5{
@@ -450,6 +458,7 @@ h1,h2,h3,h4,h5{
 
             .Listagem_002_Item{
                 width: calc(50% - 10px);
+                max-width: 408px;
                 border: 1px solid #e1e1e1;
                 margin: 0 0 20px 0;
                 box-sizing: border-box;
@@ -581,3 +590,117 @@ h1,h2,h3,h4,h5{
             color: #8a8a8a;
         }
 
+@media only screen and (max-width: 850px) {  
+    
+    .Menu_Rodape_Area{
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+        .Menu{
+            width: 100%;
+            max-width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+            .Menu li{
+                display: block;
+                margin: 0 0 5px 0;
+                padding: 0;
+            }
+
+        .Assinatura{
+            margin: 10px auto 0;
+            width: 245px;
+        }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .Barra_Topo_Area{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        .Barra_Topo_Area_Link{
+            width: 100%;
+            justify-content: space-around;
+            margin: 20px 0 0 0;
+            font-size: 15px;
+
+        }
+
+    .Destaque_Topo_Area_Tour_Video{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 70px auto 70px;
+    }
+
+        .Destaque_Topo_Area_Tour_Video a{
+            margin: 0 0 10px 0;
+
+        }
+
+
+  
+    .Smartphone_Area_Item{
+        flex-wrap: wrap;
+        margin: 0 0 60px;
+    }
+
+    .Smartphone_Area_Item .Item_Informacoes{
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+
+    .Smartphone_Area_Item:nth-child(1) .Item_Informacoes{
+        order: 3;
+        margin: 15px 0 0 0;
+    }
+
+    .Smartphone_Area_Item .Item_Informacoes a img{
+        display: inline-block;
+    }
+
+    .Sign_Up_Form{
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+        .Sign_Up_Form input{
+            border-radius: 5px;
+            width: 100%;
+            
+        }
+
+        .Sign_Up_Form button{
+            border-radius: 5px;
+            width: 100%;
+            margin: 10px 0 0 0;
+        }
+
+    .Listagem_002{
+        padding: 110px 0 70px 0;
+    }
+
+        .Listagem_002_Area_Item_Area{
+            justify-content: center;
+        }
+
+            .Listagem_002_Item{            
+                	width: 100%;
+            }
+
+    .Menu{
+        font-size: 14px;
+    }
+
+    .Assinatura{
+        font-size: 12px;
+    }
+
+                
+}
