@@ -538,7 +538,46 @@ h1,h2,h3,h4,h5{
 
 /* Menu Rodape */
 .Menu_Rodape{
+    padding: 25px 0 35px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #e7e7e7;
 
 }      
 
+    .Menu_Rodape_Area{
+        max-width: 905px;
+        margin: 0 auto;
+        width: 100%;  
+        text-align: center; 
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .Menu{
+            margin: 0;
+            padding: 0;
+            width: calc(100% - 245px);
+            max-width: 500px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            font-family: OpenSans-Light, sans-serif;
+            color: #8a8a8a;
+        }
+
+            .Menu li{
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+
+        .Assinatura{
+            display: flex;
+            justify-content: space-between;
+            width: 245px;
+            font-size: 13px;
+            font-family: OpenSans-Light, sans-serif;
+            color: #8a8a8a;
+        }
 
