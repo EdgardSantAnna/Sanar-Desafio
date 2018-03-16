@@ -95,6 +95,12 @@ h1,h2,h3,h4,h5{
     font-weight: inherit;
 }
 
+.Center{
+    max-width: 1010px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 /* Topo */
 .Barra_Topo{
     background: #2c4b60;
@@ -407,15 +413,85 @@ h1,h2,h3,h4,h5{
 
 /* Listagem 002 */
 .Listagem_002{
+    padding: 210px 0 110px;
+    width: 100%;
+    box-sizing: border-box;
+} 
 
-}   
+    .Listagem_002_Area{
+        max-width: 835px;
+        margin: 0 auto;
+        width: 100%;  
+        text-align: center; 
+    }
+
+        .Listagem_002_Area h5{
+            font-family: Georgiai, sans-serif;
+            color:#8b8b8b;
+            font-size: 14px;
+
+        }
+
+        .Listagem_002_Area h2{
+            font-size: 27px;
+            text-transform: uppercase;
+            font-family: OpenSans-Light, sans-serif;
+            color: #363636;
+            margin: 5px 0 45px 0;
+
+        }   
+
+        .Listagem_002_Area_Item_Area{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+            .Listagem_002_Item{
+                width: calc(50% - 10px);
+                border: 1px solid #e1e1e1;
+                margin: 0 0 20px 0;
+                box-sizing: border-box;
+                padding: 50px 30px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+                .Listagem_002_Item_Imagem{
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                    background: #e4e8eb;
+                }
+
+                .Listagem_002_Item h3{
+                    text-transform: uppercase;
+                    font-family: OpenSans-Regular, sans-serif;
+                    color: #4c4c4c;
+                    font-size: 15px;
+                    margin: 20px 0 5px 0;
+                }
+
+                .Listagem_002_Item h4{
+                    font-family: OpenSans-Regular, sans-serif;
+                    color: #169f83;
+                    font-size: 10px;
+                    margin: 0px 0 20px 0;
+                }
+
+                .Listagem_002_Item span{
+                    font-family: OpenSans-Italic, sans-serif;
+                    color: #8e8e8e;
+                    font-size: 14px;
+                }
+
 /* Menu Rodape */
 .Menu_Rodape{
 
 }      
 
-.Center{
-    max-width: 1010px;
-    margin: 0 auto;
-    width: 100%;
-}
+
